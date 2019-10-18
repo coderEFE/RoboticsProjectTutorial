@@ -8,7 +8,7 @@
  * y = -sqrt3 * x + sqrt3 (the right line)
  * and a bottom line
  * 
- * so y is like how many lines we should produce and
+ * so y is like how many lines we should produce and 
  * the x is like how many spaces should we print before we print the "o"
  * what we have to do is to set for loops that let Java know
  * when each y value is given, how much spaces should there be
@@ -20,7 +20,7 @@
  *  */
 
 public class EquilateralTriangle1 {
-public static final double a = .01; //the smaller this number goes, the more persize the triangle can be, but don't set it too small, the complier will hate you  
+public static final double a = .05; //the smaller this number goes, the more persize the triangle can be, but don't set it too small, the complier will hate you  
 	
 	
 	public static void main(String[] args) {
