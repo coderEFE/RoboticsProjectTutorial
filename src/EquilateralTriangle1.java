@@ -26,23 +26,23 @@ public static final double a = .05; //the smaller this number goes, the more per
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		double y;
-	for ( y = Math.sqrt(3); y > 0; y -= a) {
-		//left line
-		for (double x = y/Math.sqrt(3); x > 0; x -= a) {
-			space();
-		}
-		System.out.print("o");
-		//right line notice in the for loop second condition, the spaces needs to be doubled since that there are just empty spaces after the first line
-		for (double x = 0 ; x < -2*(y-Math.sqrt(3))/Math.sqrt(3); x += a) {
-			space();
-		}
+		for ( y = Math.sqrt(3); y > 0; y -= a) {
+			//left line
+			for (double x = y/Math.sqrt(3); x > 0; x -= a) {
+				space();
+			}
+			System.out.print("o");
+			//right line notice in the for loop second condition, the spaces needs to be doubled since that there are just empty spaces after the first line
+			for (double x = 0 ; x < -2*(y-Math.sqrt(3))/Math.sqrt(3); x += a) {
+				space();
+			}
 
-		System.out.println("o");
-	}
-	//bottom line
-	for (double i = 0 ; i <= 2+2*a; i += a) {
-		System.out.print(" o");
-	}	
+			System.out.println("o");
+		}
+		//bottom line
+		for (double i = 0 ; i <= 2+2*a; i += a) {
+			System.out.print(" o");
+		}	
 	}
 	public static void space(){
 			System.out.print("  ");
